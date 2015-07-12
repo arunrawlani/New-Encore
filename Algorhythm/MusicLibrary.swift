@@ -11,16 +11,16 @@ import Foundation
 struct MusicLibrary {
     let library = [
         [
-            "title": "Rise and Shine",
+            "title": "DJ Mustard",
             "description": "Get your morning going by singing along to these classic tracks as you hit the shower bright and early!",
-            "icon": "coffee.pdf",
-            "largeIcon": "coffee_large.pdf",
+            "icon": "dj_mustard.pdf",
+            "largeIcon": "dj_mustard_large.pdf",
             "backgroundColor": ["red": 255, "green": 204, "blue": 51, "alpha": 1.0],
-            "artists": ["American Authors", "Vacationer", "Matt and Kim", "MGMT", "Echosmith", "Tokyo Police Club", "La Femme"]
+            "artists": ["Rack City", "Paranoid", "Show Me"]
         ],
         [
-            "title": "Runner's Rampage",
-            "description": "Hit the track hard and get in beast mode with everything from dance tracks to classic hip hop. All the right fuel to motivate you to push your limits.",
+            "title": "Mumford & Sons",
+            "description": "For a band who had gigged pretty much nonstop since forming, Mumford & Sons’ five-month hiatus – which began when they completed their world tour for the Babel album in September 2013. ",
             "icon": "running.pdf",
             "largeIcon": "running_large.pdf",
             "backgroundColor": ["red": 255, "green": 102, "blue": 51, "alpha": 1.0],

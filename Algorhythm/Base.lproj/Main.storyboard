@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="rtc-rZ-zJP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="rtc-rZ-zJP">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Playlists-->
@@ -154,26 +155,26 @@
                                     <constraint firstAttribute="width" secondItem="yN6-cC-soQ" secondAttribute="height" multiplier="32:29" id="dJp-TM-Tgp"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artists" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cg5-Hg-a6K">
-                                <rect key="frame" x="20" y="374" width="46" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Songs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cg5-Hg-a6K">
+                                <rect key="frame" x="20" y="374" width="47" height="20.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist Number 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="af2-Oe-Sc5">
-                                <rect key="frame" x="20" y="402" width="95.5" height="17"/>
+                                <rect key="frame" x="20" y="402.5" width="95.5" height="17"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist Number 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IcC-D5-wIr">
-                                <rect key="frame" x="20" y="427" width="95.5" height="17"/>
+                                <rect key="frame" x="20" y="427.5" width="95.5" height="17"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist Number 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="New-vZ-22n">
-                                <rect key="frame" x="20" y="452" width="95.5" height="17"/>
+                                <rect key="frame" x="20" y="452.5" width="95.5" height="17"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -188,7 +189,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVJ-ZU-53D">
-                                        <rect key="frame" x="20" y="38" width="280" height="42.5"/>
+                                        <rect key="frame" x="20" y="38.5" width="280" height="42.5"/>
                                         <string key="text">This is a collection of my favorite songs to listen to when working out. It's got everything from fast cardio to power workout tunes. All the right fuel to get your engine going.</string>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -205,6 +206,30 @@
                                     <constraint firstAttribute="trailing" secondItem="WVJ-ZU-53D" secondAttribute="trailing" constant="20" id="tzz-DA-WA5"/>
                                 </constraints>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="sKK-8V-JGh">
+                                <rect key="frame" x="0.0" y="449" width="320" height="119"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="30" id="5T5-I1-Nc3" customClass="SongTableViewCell" customModule="Algorhythm" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5T5-I1-Nc3" id="MuC-NV-j3f">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7M4-fE-SPz">
+                                                    <rect key="frame" x="8" y="4" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="songTitle" destination="7M4-fE-SPz" id="lhj-tb-KlS"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.1764705882" green="0.1843137255" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -212,14 +237,18 @@
                             <constraint firstAttribute="trailing" secondItem="yN6-cC-soQ" secondAttribute="trailing" id="2rD-oP-deh"/>
                             <constraint firstAttribute="trailing" secondItem="5jZ-NK-8cb" secondAttribute="trailing" id="34V-xM-Bat"/>
                             <constraint firstItem="New-vZ-22n" firstAttribute="leading" secondItem="8MY-6p-T4g" secondAttribute="leading" constant="20" id="7Vb-8n-VMe"/>
+                            <constraint firstItem="sKK-8V-JGh" firstAttribute="leading" secondItem="8MY-6p-T4g" secondAttribute="leadingMargin" constant="-16" id="CTq-TW-gIw"/>
                             <constraint firstItem="af2-Oe-Sc5" firstAttribute="top" secondItem="Cg5-Hg-a6K" secondAttribute="bottom" constant="8" id="DUI-Va-WFy"/>
                             <constraint firstItem="yN6-cC-soQ" firstAttribute="top" secondItem="NWH-mo-GiC" secondAttribute="bottom" id="LCd-rQ-u92"/>
                             <constraint firstItem="New-vZ-22n" firstAttribute="top" secondItem="IcC-D5-wIr" secondAttribute="bottom" constant="8" id="Ne3-Pf-GMi"/>
                             <constraint firstItem="yN6-cC-soQ" firstAttribute="leading" secondItem="8MY-6p-T4g" secondAttribute="leading" id="P1d-CQ-0YE"/>
+                            <constraint firstItem="sKK-8V-JGh" firstAttribute="top" secondItem="NWH-mo-GiC" secondAttribute="bottom" constant="385" id="R32-mm-Oaa"/>
                             <constraint firstItem="5jZ-NK-8cb" firstAttribute="leading" secondItem="8MY-6p-T4g" secondAttribute="leading" id="RVu-qj-iMc"/>
                             <constraint firstItem="5jZ-NK-8cb" firstAttribute="bottom" secondItem="yN6-cC-soQ" secondAttribute="bottom" id="VW0-aG-1c7"/>
+                            <constraint firstItem="gcd-MC-jPS" firstAttribute="top" secondItem="sKK-8V-JGh" secondAttribute="bottom" id="YMg-ot-TDO"/>
                             <constraint firstItem="IcC-D5-wIr" firstAttribute="leading" secondItem="8MY-6p-T4g" secondAttribute="leading" constant="20" id="cv6-zF-2UU"/>
                             <constraint firstItem="af2-Oe-Sc5" firstAttribute="leading" secondItem="8MY-6p-T4g" secondAttribute="leading" constant="20" id="dsP-UK-9La"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sKK-8V-JGh" secondAttribute="trailing" constant="-16" id="jr5-Kt-qIx"/>
                             <constraint firstItem="Cg5-Hg-a6K" firstAttribute="top" secondItem="5jZ-NK-8cb" secondAttribute="bottom" constant="20" id="tem-FL-qjq"/>
                             <constraint firstItem="Cg5-Hg-a6K" firstAttribute="leading" secondItem="8MY-6p-T4g" secondAttribute="leading" constant="20" id="zma-BG-D3d"/>
                         </constraints>
@@ -232,6 +261,7 @@
                         <outlet property="playlistCoverImage" destination="yN6-cC-soQ" id="IUA-2T-9Tm"/>
                         <outlet property="playlistDescriptionLabel" destination="WVJ-ZU-53D" id="8fq-ZP-DzG"/>
                         <outlet property="playlistTitleLabel" destination="IGz-1i-MO3" id="Mhp-bR-eMm"/>
+                        <outlet property="songTableView" destination="sKK-8V-JGh" id="dgU-l7-dog"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GC3-yy-l1f" userLabel="First Responder" sceneMemberID="firstResponder"/>

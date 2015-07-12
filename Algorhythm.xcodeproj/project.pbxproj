@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1FD95691B526736009520E3 /* kendrick_lamar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1FD95681B526736009520E3 /* kendrick_lamar.jpg */; };
+		F1FD956B1B5272DD009520E3 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FD956A1B5272DD009520E3 /* SongTableViewCell.swift */; };
 		F518DAD51AAC70DE00E29A11 /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518DAD41AAC70DE00E29A11 /* MusicLibrary.swift */; };
 		F518DAD71AAC71C400E29A11 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518DAD61AAC71C400E29A11 /* Playlist.swift */; };
 		F526F04D1AAC6B190079DDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F526F04C1AAC6B190079DDEF /* AppDelegate.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1FD95681B526736009520E3 /* kendrick_lamar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kendrick_lamar.jpg; path = ../../Desktop/singerpicture/kendrick_lamar.jpg; sourceTree = "<group>"; };
+		F1FD956A1B5272DD009520E3 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 		F518DAD41AAC70DE00E29A11 /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
 		F518DAD61AAC71C400E29A11 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 		F526F0471AAC6B190079DDEF /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +95,7 @@
 				F526F0501AAC6B190079DDEF /* Main.storyboard */,
 				F526F0531AAC6B190079DDEF /* Images.xcassets */,
 				F526F0551AAC6B190079DDEF /* LaunchScreen.xib */,
+				F1FD956A1B5272DD009520E3 /* SongTableViewCell.swift */,
 				F526F04A1AAC6B190079DDEF /* Supporting Files */,
 			);
 			path = Algorhythm;
@@ -116,6 +121,7 @@
 		F526F0601AAC6B1A0079DDEF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F1FD95681B526736009520E3 /* kendrick_lamar.jpg */,
 				F526F0611AAC6B1A0079DDEF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -211,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1FD95691B526736009520E3 /* kendrick_lamar.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1FD956B1B5272DD009520E3 /* SongTableViewCell.swift in Sources */,
 				F526F06D1AAC6B590079DDEF /* PlaylistDetailViewController.swift in Sources */,
 				F526F04F1AAC6B190079DDEF /* PlaylistMainViewController.swift in Sources */,
 				F526F04D1AAC6B190079DDEF /* AppDelegate.swift in Sources */,

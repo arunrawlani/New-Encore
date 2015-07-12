@@ -42,10 +42,10 @@ class PlaylistMainViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         if segue.identifier == "showPlaylistDetailSegue" {
-            let playlistImageView = sender!.view as UIImageView
+            let playlistImageView = sender!.view as! UIImageView
             if let index = find(playlistArray, playlistImageView) {
                 println(index)
-                let nextVC = segue.destinationViewController as PlaylistDetailViewController
+                let nextVC = segue.destinationViewController as! PlaylistDetailViewController
                 nextVC.playlist = Playlist(index: index)
             }
         }
