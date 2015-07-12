@@ -20,10 +20,10 @@ struct MusicLibrary {
         ],
         [
             "title": "Mumford & Sons",
-            "description": "Alternative",
+            "description": "Rock Band",
             "icon": "mumford_and_sons_small",
             "largeIcon": "mumford_and_sons_large",
-            "backgroundColor": ["red": 255, "green": 102, "blue": 51, "alpha": 1.0],
+            "backgroundColor": ["red": 0, "green": 0, "blue": 0, "alpha": 0.10],
             "artists": ["I Will Wait", "Broken Crown", "Babel"]
         ],
         [
@@ -31,31 +31,31 @@ struct MusicLibrary {
             "description": "Rap/Hip Hop",
             "icon": "kendrick_lamar_small",
             "largeIcon": "kendrick_lamar_large",
-            "backgroundColor": ["red": 153, "green": 102, "blue": 204, "alpha": 1.0],
+            "backgroundColor": ["red": 0, "green": 0, "blue": 0, "alpha": 0.10],
             "artists": ["King Kunta", "Money Trees", "Backseat Freestyle"]
         ],
         [
             "title": "Sam Smith",
-            "description": "Keep calm and focus. Shut out the noise around you and grind away with some mind sharpening instrumental tunes.",
+            "description": "Contemporary R&B/ Pop",
             "icon": "sam_smith_small",
             "largeIcon": "sam_smith_large",
-            "backgroundColor": ["red": 51, "green": 153, "blue": 204, "alpha": 1.0],
+            "backgroundColor": ["red": 0, "green": 0, "blue": 0, "alpha": 1.0],
             "artists": ["Stay With Me", "Restart", "Together"]
         ],
         [
             "title": "Elton John",
-            "description": "Turn up the speakers and get out of my way! The ultimate gaming playlist to get you hyped up and ready for the crazy fun that’s about to happen.",
+            "description": "Pop/Rock",
             "icon": "elton_john_small",
             "largeIcon": "elton_john_large",
-            "backgroundColor": ["red": 51, "green": 204, "blue": 102, "alpha": 1.0],
+            "backgroundColor": ["red": 0, "green": 0, "blue": 0, "alpha": 1.0],
             "artists": ["Rocket Man", "Rocket Man" ,  "Can You Feel The Love Tonight"]
         ],
         [
             "title": "Black Keys",
-            "description": "There’s nothing like the world’s game. Kick around the field with this eclectic playlist from around the world. Futbal for life.",
+            "description": "Garage Rock",
             "icon": "black_keys_small",
             "largeIcon": "black_keys_large",
-            "backgroundColor": ["red": 255, "green": 102, "blue": 153, "alpha": 1.0],
+            "backgroundColor": ["red": 0, "green": 0, "blue": 0, "alpha": 0.10],
             "artists": ["Lonely Boy", "Gold on the Ceiling", "Fever"]
         ]
     ]
