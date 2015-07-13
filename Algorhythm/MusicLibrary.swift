@@ -16,7 +16,8 @@ struct MusicLibrary {
             "icon": "dj_mustard.pdf",
             "largeIcon": "dj_mustard_large.pdf",
             "backgroundColor": ["red": 0, "green": 0, "blue": 0, "alpha": 1.0],
-            "artists": ["Rack City", "Paranoid", "Show Me"]
+            "artists": ["Rack City", "Paranoid", "Show Me"],
+            "votes": [9, 5, 1]
         ],
         [
             "title": "Mumford & Sons",
@@ -24,7 +25,8 @@ struct MusicLibrary {
             "icon": "mumford_and_sons_small",
             "largeIcon": "mumford_and_sons_large",
             "backgroundColor": ["red": 0, "green": 0, "blue": 0, "alpha": 0.10],
-            "artists": ["I Will Wait", "Broken Crown", "Babel"]
+            "artists": ["I Will Wait", "Broken Crown", "Babel"],
+            "votes": [25, 19, 7]
         ],
         [
             "title": "Kendrick Lamar",
@@ -32,7 +34,8 @@ struct MusicLibrary {
             "icon": "kendrick_lamar_small",
             "largeIcon": "kendrick_lamar_large",
             "backgroundColor": ["red": 0, "green": 0, "blue": 0, "alpha": 0.10],
-            "artists": ["King Kunta", "Money Trees", "Backseat Freestyle"]
+            "artists": ["King Kunta", "Money Trees", "Backseat Freestyle"],
+            "votes": [41, 17, 4]
         ],
         [
             "title": "Sam Smith",
@@ -40,7 +43,8 @@ struct MusicLibrary {
             "icon": "sam_smith_small",
             "largeIcon": "sam_smith_large",
             "backgroundColor": ["red": 0, "green": 0, "blue": 0, "alpha": 1.0],
-            "artists": ["Stay With Me", "Restart", "Together"]
+            "artists": ["Stay With Me", "Restart", "Together"],
+            "votes": [30, 19, 18]
         ],
         [
             "title": "Elton John",
@@ -48,7 +52,8 @@ struct MusicLibrary {
             "icon": "elton_john_small",
             "largeIcon": "elton_john_large",
             "backgroundColor": ["red": 0, "green": 0, "blue": 0, "alpha": 1.0],
-            "artists": ["Rocket Man", "Rocket Man" ,  "Can You Feel The Love Tonight"]
+            "artists": ["Rocket Man", "Rocket Man" ,  "Can You Feel The Love Tonight"],
+            "votes": [24, 18, 17]
         ],
         [
             "title": "Black Keys",
@@ -56,7 +61,8 @@ struct MusicLibrary {
             "icon": "black_keys_small",
             "largeIcon": "black_keys_large",
             "backgroundColor": ["red": 0, "green": 0, "blue": 0, "alpha": 0.10],
-            "artists": ["Lonely Boy", "Gold on the Ceiling", "Fever"]
+            "artists": ["Lonely Boy", "Gold on the Ceiling", "Fever"],
+            "votes": [14, 13, 4]
         ]
     ]
 }

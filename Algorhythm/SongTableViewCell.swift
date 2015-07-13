@@ -10,8 +10,9 @@ import UIKit
 
 class SongTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var votesLabel: UILabel!
     @IBOutlet weak var songTitle: UILabel!
-    var titleLabel: String!
+//    var titleLabel: String!
     
 //    override func awakeFromNib() {
 //        super.awakeFromNib()

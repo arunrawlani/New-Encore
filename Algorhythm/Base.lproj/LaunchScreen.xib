@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -16,19 +16,36 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2u2-af-X4m">
                     <rect key="frame" x="0.0" y="0.0" width="480" height="240"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your choice matters." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1CC-uG-8BM">
+                            <rect key="frame" x="156" y="160" width="169" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="u0P-13-ikp"/>
+                                <constraint firstAttribute="width" constant="169" id="x7r-5z-EaT"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.9960784912109375" green="1" blue="0.9960784912109375" alpha="1" colorSpace="deviceRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENCORE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4n3-ot-Crm">
+                            <rect key="frame" x="137" y="81" width="207" height="77"/>
+                            <fontDescription key="fontDescription" name="AvenirNextCondensed-UltraLight" family="Avenir Next Condensed" pointSize="75"/>
+                            <color key="textColor" red="0.97254908084869385" green="0.99215692281723022" blue="0.97254908084869385" alpha="1" colorSpace="deviceRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
                     <color key="backgroundColor" red="0.1803921568627451" green="0.20392156862745098" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
-                </view>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch Icon" translatesAutoresizingMaskIntoConstraints="NO" id="pY3-wM-Rjs">
-                    <rect key="frame" x="180" y="180" width="120" height="120"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="120" id="Ido-dx-vvH"/>
-                        <constraint firstAttribute="height" constant="120" id="baw-gL-0QM"/>
+                        <constraint firstAttribute="centerX" secondItem="4n3-ot-Crm" secondAttribute="centerX" id="8ea-II-k7k"/>
+                        <constraint firstItem="1CC-uG-8BM" firstAttribute="centerX" secondItem="4n3-ot-Crm" secondAttribute="centerX" id="OUe-ha-8jX"/>
+                        <constraint firstItem="1CC-uG-8BM" firstAttribute="top" secondItem="4n3-ot-Crm" secondAttribute="bottom" constant="2" id="jDu-XV-49N"/>
+                        <constraint firstAttribute="bottom" secondItem="1CC-uG-8BM" secondAttribute="bottom" constant="59" id="lJx-it-MF4"/>
+                        <constraint firstAttribute="centerY" secondItem="4n3-ot-Crm" secondAttribute="centerY" id="u2q-1s-dcA"/>
                     </constraints>
-                </imageView>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerX" secondItem="pY3-wM-Rjs" secondAttribute="centerX" id="H4D-0q-Zjn"/>
                 <constraint firstAttribute="trailing" secondItem="h5C-Xr-2Wh" secondAttribute="trailing" id="Hwo-EP-GBN"/>
                 <constraint firstItem="2u2-af-X4m" firstAttribute="height" secondItem="h5C-Xr-2Wh" secondAttribute="height" id="IUK-J2-2Fa"/>
                 <constraint firstItem="h5C-Xr-2Wh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Jvi-DC-sb8"/>
@@ -36,7 +53,6 @@
                 <constraint firstItem="2u2-af-X4m" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="VCe-N4-OxS"/>
                 <constraint firstAttribute="trailing" secondItem="2u2-af-X4m" secondAttribute="trailing" id="d3M-eY-AKK"/>
                 <constraint firstItem="h5C-Xr-2Wh" firstAttribute="top" secondItem="2u2-af-X4m" secondAttribute="bottom" id="iaL-eC-haC"/>
-                <constraint firstAttribute="centerY" secondItem="pY3-wM-Rjs" secondAttribute="centerY" id="vR1-9I-Pns"/>
                 <constraint firstAttribute="bottom" secondItem="h5C-Xr-2Wh" secondAttribute="bottom" id="z0e-N1-EhM"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
@@ -44,7 +60,4 @@
             <point key="canvasLocation" x="548" y="455"/>
         </view>
     </objects>
-    <resources>
-        <image name="Launch Icon" width="120" height="120"/>
-    </resources>
 </document>

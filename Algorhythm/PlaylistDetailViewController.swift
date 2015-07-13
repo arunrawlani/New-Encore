@@ -17,6 +17,7 @@ class PlaylistDetailViewController: UIViewController, UITableViewDataSource, UIT
     @IBOutlet weak var songTableView: UITableView!
     
     var songs : [String]?
+    var votes : [Int]?
     
     var playlist: Playlist?
     
@@ -28,7 +29,7 @@ class PlaylistDetailViewController: UIViewController, UITableViewDataSource, UIT
         super.viewDidLoad()
         songTableView.dataSource = self
         songTableView.delegate = self
-        songTableView.registerClass(SongTableViewCell.self, forCellReuseIdentifier: "SongTableViewCell")
+        //songTableView.registerClass(SongTableViewCell.self, forCellReuseIdentifier: "SongTableViewCell")
         // Do any additional setup after loading the view.
         if let playlist = self.playlist {
             playlistCoverImage.image = playlist.largeIcon
@@ -40,6 +41,8 @@ class PlaylistDetailViewController: UIViewController, UITableViewDataSource, UIT
             playlistArtist1.text = playlist.artists[1]
             playlistArtist2.text = playlist.artists[2]
             songs = [playlist.artists[0], playlist.artists[1], playlist.artists[2]]
+            votes = [playlist.votes[0], playlist.votes[1], playlist.votes[2]]
+
         }
     }
     
@@ -54,8 +57,11 @@ class PlaylistDetailViewController: UIViewController, UITableViewDataSource, UIT
         let cellIdentifier = "SongTableViewCell"
         let cell = songTableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! SongTableViewCell
         let song = songs![indexPath.row]
-        //cell.titleLabel = song
-        cell.textLabel?.text = song
+        cell.songTitle.text = song
+        
+        let voteCount = votes![indexPath.row]
+        cell.votesLabel.text = "\(voteCount)"
+        //cell.textLabel?.text = song
         // Configure the cell...
         
         return cell
@@ -65,6 +71,7 @@ class PlaylistDetailViewController: UIViewController, UITableViewDataSource, UIT
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
     // MARK: - Navigation
     

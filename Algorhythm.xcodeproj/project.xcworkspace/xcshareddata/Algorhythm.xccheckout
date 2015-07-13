@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>752949B5-4349-4951-853D-0C680CC37292</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Algorhythm</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A813C117E39CCDCA3447D15C956579DC64D2C46F</key>
 		<string>https://github.com/nsoojin/Algorhythm</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Algorhythm.xcodeproj</string>
+	<string>Algorhythm.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A813C117E39CCDCA3447D15C956579DC64D2C46F</key>
